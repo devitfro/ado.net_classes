@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\itStep\\ado.net\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj": {}
+    "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj": {}
   },
   "projects": {
-    "D:\\development\\itStep\\ado.net\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj": {
+    "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\itStep\\ado.net\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj",
+        "projectUniqueName": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj",
         "projectName": "lesson1_hw",
-        "projectPath": "D:\\development\\itStep\\ado.net\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj",
+        "projectPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj",
         "packagesPath": "C:\\Users\\alina\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\itStep\\ado.net\\lesson1_hw\\lesson1_hw\\lesson1_hw\\obj\\",
+        "outputPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
