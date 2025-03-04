@@ -60,8 +60,6 @@ class Program
                     break;
             }
         }
-
-      
     }
 
     static List<string> GetTableNames()
@@ -263,9 +261,7 @@ class Program
                 Console.WriteLine("Error: " + ex.Message);
             }
         }
-
     }
-
 
     static void UpdateRow(string tableName)
     {
@@ -323,7 +319,6 @@ class Program
     {
         Console.Clear();
     }
-
 }
 
 
