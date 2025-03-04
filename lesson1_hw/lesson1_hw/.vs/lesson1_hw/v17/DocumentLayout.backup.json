@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1303F57F-96A8-4F51-8689-09BE4F0BD6A3}|lesson1_hw\\lesson1_hw.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1303F57F-96A8-4F51-8689-09BE4F0BD6A3}|lesson1_hw\\lesson1_hw.csproj|solutionrelative:lesson1_hw\\lesson1_hw.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1303F57F-96A8-4F51-8689-09BE4F0BD6A3}|lesson1_hw\\lesson1_hw.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1303F57F-96A8-4F51-8689-09BE4F0BD6A3}|lesson1_hw\\lesson1_hw.csproj|solutionrelative:lesson1_hw\\appconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appconfig.json",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\appconfig.json",
+              "RelativeDocumentMoniker": "lesson1_hw\\appconfig.json",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\appconfig.json",
+              "RelativeToolTip": "lesson1_hw\\appconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T20:42:28.551Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\Program.cs",
               "RelativeDocumentMoniker": "lesson1_hw\\Program.cs",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\Program.cs*",
-              "RelativeToolTip": "lesson1_hw\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA1AAAAAAAAAA==",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\Program.cs",
+              "RelativeToolTip": "lesson1_hw\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T21:54:16.449Z",
               "EditorCaption": ""
@@ -41,9 +58,10 @@
               "RelativeDocumentMoniker": "lesson1_hw\\lesson1_hw.csproj",
               "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\lesson1_hw.csproj",
               "RelativeToolTip": "lesson1_hw\\lesson1_hw.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-03T21:54:14.942Z"
+              "WhenOpened": "2025-03-03T21:54:14.942Z",
+              "EditorCaption": ""
             }
           ]
         }

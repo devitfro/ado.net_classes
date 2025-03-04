@@ -127,3 +127,11 @@ D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\o
 D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\obj\Debug\net9.0\lesson1_hw.pdb
 D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\obj\Debug\net9.0\lesson1_hw.genruntimeconfig.cache
 D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\obj\Debug\net9.0\ref\lesson1_hw.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\appconfig.json
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\development\itStep\ado.net\ado.net_classes\lesson1_hw\lesson1_hw\lesson1_hw\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll

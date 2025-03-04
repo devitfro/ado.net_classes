@@ -1,34 +1,69 @@
 ﻿using Microsoft.Data.SqlClient;
-using System;
-using System.Linq;
+using Microsoft.Extensions.Configuration;
 
 namespace lesson1_hw;
 
 class Program
 {
-    static readonly string connectionString = "Server=localhost; Database=Storik; Integrated Security=True; TrustServerCertificate=True;";
+    //static readonly string connectionString = "Server=localhost; Database=Storik; Integrated Security=True; TrustServerCertificate=True;";
+    static string connectionString;
+
 
     static void Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
+        var configuration = new ConfigurationBuilder()
+           .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+           .AddJsonFile("appconfig.json")
+           .Build();
+
+        connectionString = configuration.GetConnectionString("DefaultConnection");
 
         var tableNames = GetTableNames();
 
         ShowTableNames(tableNames);
 
         int tableNumber  = ChooseTable(tableNames);
+
+        string tableName = tableNames[tableNumber - 1];
+
         Console.WriteLine($"tableNumber - {tableNumber}");
 
-        ShowActionMenu();
-
-        int actionNumber = ChooseAction();
-        Console.WriteLine($"actionNumber - {actionNumber}");
-
-        if (actionNumber == 1)
+        while (true)
         {
-            //showTableStructure(tableNumber, tableNames);
-            ShowTableStructure(tableNames[tableNumber]);
+            ShowActionMenu();
+
+            int actionNumber = ChooseAction();
+            Console.WriteLine("Action: " +  actionNumber);
+
+            switch (actionNumber)
+            {
+                case 1:
+                    ShowTableStructure(tableName);
+                    break;
+                case 2:
+                    ShowDataInformation(tableName);
+                    break;
+                case 3:
+                    InsertRow(tableName);
+                    break;
+                case 4:
+                    UpdateRow(tableName);
+                    break;
+                case 5:
+                    DeleteRow(tableName);
+                    break;
+                case 6:
+                    ClearScreen();
+                    ShowTableNames(tableNames);
+                    break;
+                default:
+                    Console.WriteLine("Not correct input...");
+                    break;
+            }
         }
+
+      
     }
 
     static List<string> GetTableNames()
@@ -61,7 +96,7 @@ class Program
 
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
         return tableNames;
@@ -115,16 +150,105 @@ class Program
             else
             {
                 Console.WriteLine("Please, enter correct number..");
-            }
+            } 
         }
     }
+       
 
     static void ShowTableStructure(string tableName)
     {
         string query = $@"
                 SELECT COLUMN_NAME, DATA_TYPE 
-                FROM INFORMATION_SCHEMA.COLUMNS 
+                FROM INFORMATION_SCHEMA.COLUMNS
                 WHERE TABLE_NAME = @TableName";
+
+        using (var connection = new SqlConnection(connectionString))
+        {
+            try
+            {
+                connection.Open();
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@TableName", tableName);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                for (int i = 0; i < reader.FieldCount; i++)
+                                {
+                                    Console.Write($"{reader[i]} \t");
+                                }
+                                Console.WriteLine();                  
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("No data in the table.");
+                        }
+                        Console.WriteLine();
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+    }
+
+    static void ShowDataInformation(string tableName)
+    {
+        string query = $"SELECT * FROM {tableName}";
+
+        using (var connection = new SqlConnection(connectionString))
+        {
+            try
+            {
+                connection.Open();
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.HasRows)
+                        {
+                            while (reader.Read())
+                            {
+                                for (int i = 0; i < reader.FieldCount; i++)
+                                {
+                                    Console.Write($"{reader[i]} \t");
+                                }
+                                Console.WriteLine();
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("No data in the table.");
+                        }
+                        Console.WriteLine();
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+    }
+
+    static void InsertRow(string tableName)
+    {
+        Console.WriteLine("Enter data to insert into the table: ");
+
+        string values = Console.ReadLine();
+
+        string query = $"INSERT INTO {tableName} VALUES ({values})";
 
         using (var connection = new SqlConnection(connectionString))
         {
@@ -133,116 +257,75 @@ class Program
                 connection.Open();
                 using (var command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.AddWithValue("@TableName", tableName);
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        Console.WriteLine("Структура таблицы:");
-                        while (reader.Read())
-                        {
-                            string columnName = reader.GetString(0);
-                            string dataType = reader.GetString(1);
-                            Console.WriteLine($"{columnName} - {dataType}");
-                        }
-                    }
+                    int rowsAffected = command.ExecuteNonQuery();
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка при получении структуры таблицы: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+
+    }
+
+
+    static void UpdateRow(string tableName)
+    {
+        Console.Write("Enter row id to update: ");
+        int id = int.Parse(Console.ReadLine());
+
+        Console.Write("Enter value: ");
+        string newValue = Console.ReadLine();
+
+        string query = $"UPDATE {tableName} SET {newValue} WHERE id = {id}";
+
+        using (var connection = new SqlConnection(connectionString))
+        {
+            try
+            {
+                connection.Open();
+                using (var command = new SqlCommand(query, connection))
+                {
+                    int rowsAffected = command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
             }
         }
     }
 
-    //static void showTableStructure(int ind, List<string> tableNames)
-    //{
-    //    string tableName = tableNames[ind - 1];
+    static void DeleteRow(string tableName)
+    {
+        Console.Write("Enter row id to delete: ");
 
-    //    string query = $@"
-    //            SELECT COLUMN_NAME, DATA_TYPE
-    //            FROM INFORMATION_SCHEMA.COLUMNS";
+        int id = int.Parse(Console.ReadLine());
 
-    //    using (var connection = new SqlConnection(connectionString))
-    //    {
-    //        try
-    //        {
-    //            connection.Open();
+        string query = $"DELETE FROM {tableName} WHERE id = {id}";
 
-    //            using (var command = new SqlCommand(query, connection))
-    //            {
-    //                using (SqlDataReader reader = command.ExecuteReader())
-    //                {
-    //                    if (reader.HasRows)
-    //                    {
-    //                        while (reader.Read())
-    //                        {
-    //                            string columnName = reader.GetString(0);
-    //                            string dataType = reader.GetString(1);
+        using (var connection = new SqlConnection(connectionString))
+        {
+            try
+            {
+                connection.Open();
+                using (var command = new SqlCommand(query, connection))
+                {
+                    int rowsAffected = command.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error: " + ex.Message);
+            }
+        }
+    }
 
-    //                        }
-    //                    }
-    //                    else
-    //                    {
-    //                        Console.WriteLine("Нема данных в таблице.");
-    //                    }
-    //                }
-    //            }
-    //        }
+    static void ClearScreen()
+    {
+        Console.Clear();
+    }
 
-    //        catch (Exception ex)
-    //        {
-    //            Console.WriteLine("Ошибка: " + ex.Message);
-    //        }
-    //    }
-    //}
-
-
-
-
-
-    //static void showTableStructure(int ind, List<string> tableNames)
-    //{
-    //    string tableName = tableNames[ind - 1];
-
-    //    string query = $"SELECT * FROM {tableName}";
-
-    //    using (var connection = new SqlConnection(connectionString))
-    //    {
-    //        try
-    //        {
-    //            connection.Open();
-
-    //            using (var command = new SqlCommand(query, connection))
-    //            {
-    //                using (SqlDataReader reader = command.ExecuteReader())
-    //                {
-    //                    if (reader.HasRows)
-    //                    {
-    //                        while (reader.Read())
-    //                        {
-    //                            for (int i = 0; i < reader.FieldCount; i++)
-    //                            {
-    //                                Console.Write($"{reader[i]} \t");
-    //                            }
-    //                            Console.WriteLine();
-
-
-    //                        }
-    //                    }
-    //                    else
-    //                    {
-    //                        Console.WriteLine("Нема данных в таблице.");
-    //                    }
-    //                }
-    //            }
-    //        }
-
-    //        catch (Exception ex)
-    //        {
-    //            Console.WriteLine("Ошибка: " + ex.Message);
-    //        }
-    //    }
-    //}
 }
 
 

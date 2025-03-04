@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost; Database=Storik; Integrated Security=True; TrustServerCertificate=True;"
+  }
+}
