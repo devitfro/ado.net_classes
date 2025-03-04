@@ -5,9 +5,7 @@ namespace lesson1_hw;
 
 class Program
 {
-    //static readonly string connectionString = "Server=localhost; Database=Storik; Integrated Security=True; TrustServerCertificate=True;";
     static string connectionString;
-
 
     static void Main(string[] args)
     {

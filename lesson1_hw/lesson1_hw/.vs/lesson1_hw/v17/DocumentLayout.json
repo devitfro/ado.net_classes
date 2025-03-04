@@ -34,8 +34,7 @@
               "RelativeToolTip": "lesson1_hw\\appconfig.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-04T20:42:28.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T20:42:28.551Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "lesson1_hw\\Program.cs",
               "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1_hw\\lesson1_hw\\lesson1_hw\\Program.cs",
               "RelativeToolTip": "lesson1_hw\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T21:54:16.449Z",
               "EditorCaption": ""
@@ -60,8 +59,7 @@
               "RelativeToolTip": "lesson1_hw\\lesson1_hw.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-03T21:54:14.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T21:54:14.942Z"
             }
           ]
         }
