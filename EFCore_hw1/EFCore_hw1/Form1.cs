@@ -57,7 +57,6 @@ namespace EFCore_hw1
                 context.Users.Add(newUser);
                 context.SaveChanges();
 
-                // ѕолучаем ID нового пользовател€ после сохранени€
                 currentUserId = newUser.ID;
 
                 MessageBox.Show("Registration successful.");
