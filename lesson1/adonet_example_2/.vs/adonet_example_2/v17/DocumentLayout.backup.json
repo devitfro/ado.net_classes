@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\development\\itStep\\ado.net\\lesson1\\adonet_example_2\\",
+  "WorkspaceRootPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|d:\\development\\itstep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|solutionrelative:adonet_example_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|d:\\development\\itstep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FD81C25F-1772-4A76-9E3C-4E63F0345C14}|adonet_example_2\\adonet_example_2.csproj|solutionrelative:adonet_example_2\\adonet_example_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -18,30 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "adonet_example_2.csproj",
-              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj",
               "RelativeDocumentMoniker": "adonet_example_2\\adonet_example_2.csproj",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\adonet_example_2.csproj",
               "RelativeToolTip": "adonet_example_2\\adonet_example_2.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-03T15:31:35.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-03T15:31:35.438Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\Program.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\Program.cs",
               "RelativeDocumentMoniker": "adonet_example_2\\Program.cs",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\lesson1\\adonet_example_2\\adonet_example_2\\Program.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\adonet_example_2\\adonet_example_2\\Program.cs",
               "RelativeToolTip": "adonet_example_2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T14:12:48.857Z",
               "EditorCaption": ""

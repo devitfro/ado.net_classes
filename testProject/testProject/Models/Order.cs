@@ -11,7 +11,8 @@ public partial class Order
 
     public int? IdProduct { get; set; }
 
-    public virtual Product? IdProductNavigation { get; set; }
+    // Navigation properties
+    public User User { get; set; }
 
-    public virtual User? IdUserNavigation { get; set; }
+    public Product Product { get; set; }
 }

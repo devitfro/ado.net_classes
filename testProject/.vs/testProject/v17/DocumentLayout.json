@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\productreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\testproject\\testproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{195AB5AB-1BF6-4F6D-9597-A924CC41E316}|testProject\\testProject.csproj|solutionrelative:testproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +58,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "testProject",
-              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\testProject.csproj",
-              "RelativeDocumentMoniker": "testProject\\testProject.csproj",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\testProject.csproj",
-              "RelativeToolTip": "testProject\\testProject.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-24T22:10:30.532Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\appsettings.json",
-              "RelativeDocumentMoniker": "testProject\\appsettings.json",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\appsettings.json",
-              "RelativeToolTip": "testProject\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-24T22:09:15.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "testProject\\Models\\MyDbContext.cs",
-              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "testProject\\Models\\MyDbContext.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHwAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ProductReview.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\ProductReview.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\ProductReview.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\ProductReview.cs",
+              "RelativeToolTip": "testProject\\Models\\ProductReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T22:06:02.847Z",
+              "WhenOpened": "2025-03-24T23:00:33.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\User.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\User.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\User.cs",
+              "RelativeToolTip": "testProject\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:06:41.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "testProject\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\ApplicationDbContext.cs",
+              "RelativeToolTip": "testProject\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:58:08.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Program.cs",
               "RelativeDocumentMoniker": "testProject\\Program.cs",
               "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Program.cs",
               "RelativeToolTip": "testProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T21:41:56.272Z",
+              "WhenOpened": "2025-03-24T22:48:18.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\Review.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Review.cs",
+              "RelativeToolTip": "testProject\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:05:29.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\Product.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Product.cs",
+              "RelativeToolTip": "testProject\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:05:15.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\Order.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Order.cs",
+              "RelativeToolTip": "testProject\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:30:29.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\Category.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\Category.cs",
+              "RelativeToolTip": "testProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:06:04.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "testProject\\Models\\MyDbContext.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "testProject\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:05:38.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "testProject\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\testProject\\testProject\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "testProject\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T23:02:12.687Z",
               "EditorCaption": ""
             }
           ]

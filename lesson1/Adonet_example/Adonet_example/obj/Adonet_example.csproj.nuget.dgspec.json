@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\development\\itStep\\ado.net\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj": {}
+    "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj": {}
   },
   "projects": {
-    "D:\\development\\itStep\\ado.net\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj": {
+    "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\development\\itStep\\ado.net\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj",
+        "projectUniqueName": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj",
         "projectName": "Adonet_example",
-        "projectPath": "D:\\development\\itStep\\ado.net\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj",
+        "projectPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\Adonet_example\\Adonet_example\\Adonet_example.csproj",
         "packagesPath": "C:\\Users\\alina\\.nuget\\packages\\",
-        "outputPath": "D:\\development\\itStep\\ado.net\\lesson1\\Adonet_example\\Adonet_example\\obj\\",
+        "outputPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\lesson1\\Adonet_example\\Adonet_example\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

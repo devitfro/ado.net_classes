@@ -9,5 +9,6 @@ public partial class Review
 
     public string? Text { get; set; }
 
-    public virtual ICollection<Product> IdProducts { get; set; } = new List<Product>();
+    public ICollection<ProductReview> ProductReviews { get; set; } = new List<ProductReview>();
+
 }

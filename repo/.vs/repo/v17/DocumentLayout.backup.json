@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\repositories\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|d:\\development\\itstep\\ado.net\\ado.net_classes\\repo\\repo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80BB062B-1901-4424-BD8B-DDDFE17DD073}|repo\\repo.csproj|solutionrelative:repo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "repo\\Models\\Order.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Models\\Order.cs",
+              "RelativeToolTip": "repo\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:27:24.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "repo\\Models\\Review.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Models\\Review.cs",
+              "RelativeToolTip": "repo\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:26:47.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "repo\\Repositories\\ReviewRepository.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\ReviewRepository.cs",
+              "RelativeToolTip": "repo\\Repositories\\ReviewRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:25:42.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "repo\\Repositories\\OrderRepository.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "repo\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:25:37.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "repo\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "repo\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:24:36.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "repo\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "repo\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:03:12.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Program.cs",
+              "RelativeDocumentMoniker": "repo\\Program.cs",
+              "ToolTip": "D:\\development\\itStep\\ado.net\\ado.net_classes\\repo\\repo\\Program.cs",
+              "RelativeToolTip": "repo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:47:19.606Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

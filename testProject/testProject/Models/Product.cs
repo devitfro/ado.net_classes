@@ -19,7 +19,5 @@ public partial class Product
 
     public virtual Category IdCategoryNavigation { get; set; } = null!;
 
-    public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
-
-    public virtual ICollection<Review> IdReviews { get; set; } = new List<Review>();
+    public ICollection<ProductReview> ProductReviews { get; set; } = new List<ProductReview>();
 }
