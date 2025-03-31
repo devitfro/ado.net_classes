@@ -1,6 +1,7 @@
 ﻿using repo.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,8 +17,25 @@ namespace repo.Repositories
             _context = context;
         }
 
+        //public void Add(User user)
+        //{
+        //    _context.Users.Add(user);
+        //    _context.SaveChanges();
+        //}
+
         public void Add(User user)
         {
+            var validationResults = new List<ValidationResult>();
+            var validationContext = new ValidationContext(user);
+            if (!Validator.TryValidateObject(user, validationContext, validationResults, true))
+            {
+                foreach (var validationResult in validationResults)
+                {
+                    Console.WriteLine($"Validation Error: {validationResult.ErrorMessage}");
+                }
+                return;
+            }
+
             _context.Users.Add(user);
             _context.SaveChanges();
         }

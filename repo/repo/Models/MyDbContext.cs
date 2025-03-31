@@ -25,39 +25,59 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<ProductCategoryView> ProductCategoryViews { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=localhost;Database=TestProject;Trusted_Connection=True;TrustServerCertificate=True;");
 
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        //modelBuilder.Entity<Category>(entity =>
+        //{
+        //    entity.HasKey(e => e.Id).HasName("PK__Category__3213E83F20C48972");
+
+        //    entity.ToTable("Category");
+
+        //    entity.Property(e => e.Id).HasColumnName("id");
+        //    entity.Property(e => e.Name)
+        //        .HasMaxLength(50)
+        //        .HasColumnName("name");
+        //});
+
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Category__3213E83F20C48972");
-
-            entity.ToTable("Category");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Name)
-                .HasMaxLength(50)
-                .HasColumnName("name");
+            entity.HasKey(e => e.Id).HasName("PK_Category");
+            entity.Property(e => e.Name).HasMaxLength(50).IsRequired();
         });
+
+        //modelBuilder.Entity<Order>(entity =>
+        //{
+        //    entity.HasKey(e => e.Id).HasName("PK__Orders__3213E83FAD21658F");
+
+        //    entity.Property(e => e.Id).HasColumnName("id");
+        //    entity.Property(e => e.IdProduct).HasColumnName("id_product");
+        //    entity.Property(e => e.IdUser).HasColumnName("id_user");
+
+        //    entity.HasOne(d => d.IdProductNavigation).WithMany(p => p.Orders)
+        //        .HasForeignKey(d => d.IdProduct)
+        //        .HasConstraintName("FK__Orders__id_produ__5070F446");
+
+        //    entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Orders)
+        //        .HasForeignKey(d => d.IdUser)
+        //        .HasConstraintName("FK__Orders__id_user__4F7CD00D");
+        //});
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Orders__3213E83FAD21658F");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.IdProduct).HasColumnName("id_product");
-            entity.Property(e => e.IdUser).HasColumnName("id_user");
-
-            entity.HasOne(d => d.IdProductNavigation).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.IdProduct)
-                .HasConstraintName("FK__Orders__id_produ__5070F446");
-
-            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.Orders)
-                .HasForeignKey(d => d.IdUser)
-                .HasConstraintName("FK__Orders__id_user__4F7CD00D");
+            entity.HasKey(e => e.Id).HasName("PK_Order");
+            entity.HasOne(e => e.IdProductNavigation)
+                .WithMany(p => p.Orders)
+                .HasForeignKey(e => e.IdProduct);
+            entity.HasOne(e => e.IdUserNavigation)
+                .WithMany(u => u.Orders)
+                .HasForeignKey(e => e.IdUser);
         });
 
         modelBuilder.Entity<Product>(entity =>
@@ -102,22 +122,28 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<Review>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Review__3213E83F033DC44D");
-
-            entity.ToTable("Review");
-
-            entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Text).HasColumnName("text");
+            entity.HasKey(e => e.Id).HasName("PK_Review");
+            entity.Property(e => e.Text).HasMaxLength(4000);
+            entity.HasMany(e => e.IdProducts)
+                .WithMany(p => p.IdReviews)
+                .UsingEntity(j => j.ToTable("ProductReviews"));
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Users__3213E83F84DC3F92");
+            entity.HasKey(e => e.Id).HasName("PK_User");
+            entity.Property(e => e.Name).HasMaxLength(50).IsRequired();
+            entity.Property(e => e.Age).IsRequired();
+        });
+
+        modelBuilder.Entity<ProductCategoryView>(entity =>
+        {
+            entity.HasNoKey();
+            entity.ToView("ProductCategoryView");
 
             entity.Property(e => e.Id).HasColumnName("id");
-            entity.Property(e => e.Name)
-                .HasMaxLength(50)
-                .HasColumnName("name");
+            entity.Property(e => e.product_name).HasColumnName("product_name");
+            entity.Property(e => e.category_name).HasColumnName("category_name");
         });
 
         OnModelCreatingPartial(modelBuilder);

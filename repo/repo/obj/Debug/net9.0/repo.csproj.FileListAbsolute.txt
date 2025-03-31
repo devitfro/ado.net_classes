@@ -145,3 +145,10 @@ D:\development\itStep\ado.net\ado.net_classes\repo\repo\obj\Debug\net9.0\refint\
 D:\development\itStep\ado.net\ado.net_classes\repo\repo\obj\Debug\net9.0\repo.pdb
 D:\development\itStep\ado.net\ado.net_classes\repo\repo\obj\Debug\net9.0\repo.genruntimeconfig.cache
 D:\development\itStep\ado.net\ado.net_classes\repo\repo\obj\Debug\net9.0\ref\repo.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\appsettings.json
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Json.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\development\itStep\ado.net\ado.net_classes\repo\repo\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
